@@ -21,7 +21,7 @@ var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
 const prefix = "s!";
-client.login("");
+client.login("ODIxNDY2NTc4NDIzOTA2Mzg2.YFEIXg.YuBAM1w7h6SSnoJXnWRTLM4uoHQ");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("idle");
@@ -46,23 +46,23 @@ client.on("message", async message => {
       
   
 ━──╮•╭──━
-⌖| Security
+:robot4:| Security
 > anti ban [Number]
 > anti kick [Number]
 > anti channel [Number]
 > anti role [Number]
 > anti bot [on / off]
 ━──╮•╭──━
-⌖| Public
+:robot2:| Public
 > bot , server , ping , profile , uinvites , hightRole , nick
 > user , avatar , roles , emoji
 ━──╮•╭──━
-⌖| Moderation
+:robot2:| Moderation
 > , ban , kick , mute , unmute , slowmode , bans
 > say , unban[userid/all]
 ━──╮•╭──━
-__ [Vote](link top gg) __  
-__ [invite](invitebot) __  __ [Support](https://discord.gg/cetGQvWD3h) __
+
+__ [invite](https://discord.com/api/oauth2/authorize?client_id=821466578423906386&permissions=8&scope=bot) __  __ [Suppor] (https://discord.gg/YQ5fYD8SeB) __
 `);
     message.channel.send(help);
   }
